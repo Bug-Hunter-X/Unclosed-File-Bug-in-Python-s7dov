@@ -1,0 +1,2 @@
+# Unclosed File Bug
+This repository demonstrates a common Python bug: forgetting to close a file after opening it.  The `bug.py` file shows the problematic code. The solution, using `with open(...)`, ensures the file is always closed, even if errors occur.
